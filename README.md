@@ -9,7 +9,7 @@
 
 ## 📑 Contents
 
-- [🎓 Knowledge & Skill Registries](#-knowledge--skill-registries)
+- [🎓 General Knowledge](#-general-knowledge)
 - [🔌 Protocol-Specific Skills & Plugins](#-protocol-specific-skills--plugins)
 - [📈 Exchange & Trading Skills](#-exchange--trading-skills)
 - [🛡️ Smart Contract Security](#️-smart-contract-security)
@@ -31,7 +31,7 @@
 
 | Name | Description | Link |
 |------|-------------|------|
-| **ETHSKILLS** | Modular Ethereum knowledge for AI agents — gas, L2s, standards, security, DeFi, auditing, and more. No install required. Built by Austin Griffith / BuidlGuidl / Ethereum Foundation. | [ethskills.com](https://ethskills.com/) |
+| **ETHSKILLS** | The most important skill you need to have. Modular Ethereum knowledge for AI agents — gas, L2s, standards, security, DeFi, auditing, and more. No install required. Built by Austin Griffith / BuidlGuidl / Ethereum Foundation. | [ethskills.com](https://ethskills.com/) |
 | **CryptoSkills** | 97+ production-ready AI agent skills across 14 categories and 15 blockchains. Covers DeFi protocols (Aave, Compound, Curve, Lido, Pendle, GMX, etc.), L2s (Arbitrum, Base, Optimism, StarkNet, etc.), oracles (Chainlink, Pyth, RedStone), security tools, cross-chain bridges, dev frameworks, and more. Install via `npx cryptoskills install`. | [cryptoskills.dev](https://cryptoskills.dev/) |
 | **kukapay/crypto-skills** | Collection of specialized AI agent skills — EVM Swiss Knife, Market Sentiment, Meme Scout, Token Minter, Trading Strategist, Yield Opportunities. Install via `npx skills add kukapay/crypto-skills`. | [GitHub](https://github.com/kukapay/crypto-skills) |
 | **crypto-agent-skill** | Real-time crypto market data skill built with the agentskills.io open standard. | [GitHub](https://github.com/JStrait515/crypto-agent-skill) |
