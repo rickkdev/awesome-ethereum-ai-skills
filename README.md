@@ -8,21 +8,17 @@ A curated list of AI skills, MCP servers, plugins, and agent toolkits for Ethere
 
 - [Knowledge & Skill Registries](#knowledge--skill-registries)
 - [Protocol-Specific Skills & Plugins](#protocol-specific-skills--plugins)
-- [DeFi Protocol Skills](#defi-protocol-skills)
 - [Exchange & Trading Skills](#exchange--trading-skills)
 - [Smart Contract Security](#smart-contract-security)
-- [Oracles & Price Feeds](#oracles--price-feeds)
 - [DeFi Data & Analytics](#defi-data--analytics)
 - [Agent Frameworks & Toolkits](#agent-frameworks--toolkits)
 - [Chain-Specific MCP Servers](#chain-specific-mcp-servers)
-- [Ethereum L2 Skills](#ethereum-l2-skills)
 - [Trading & DeFi MCP Servers](#trading--defi-mcp-servers)
 - [Market Data MCP Servers](#market-data-mcp-servers)
-- [Cross-Chain & Bridge Tools](#cross-chain--bridge-tools)
+- [Cross-Chain & Bridge MCP Servers](#cross-chain--bridge-mcp-servers)
 - [Wallet & Infrastructure](#wallet--infrastructure)
 - [Standards & Identity](#standards--identity)
 - [Frontend & Social](#frontend--social)
-- [Dev Tools & Frameworks](#dev-tools--frameworks)
 - [Awesome Lists & Directories](#awesome-lists--directories)
 - [Discovery Resources](#discovery-resources)
 
@@ -35,7 +31,7 @@ Everything you need to get started — foundational Ethereum and crypto knowledg
 | Name | Description | Link |
 |------|-------------|------|
 | **ETHSKILLS** | Modular Ethereum knowledge for AI agents — gas, L2s, standards, security, DeFi, auditing, and more. No install required. Built by Austin Griffith / BuidlGuidl / Ethereum Foundation. | [ethskills.com](https://ethskills.com/) |
-| **CryptoSkills** | 97+ production-ready AI agent skills across 14 categories and 15 blockchains. Install via `npx cryptoskills install`. | [cryptoskills.dev](https://cryptoskills.dev/) |
+| **CryptoSkills** | 97+ production-ready AI agent skills across 14 categories and 15 blockchains. Covers DeFi protocols (Aave, Compound, Curve, Lido, Pendle, GMX, etc.), L2s (Arbitrum, Base, Optimism, StarkNet, etc.), oracles (Chainlink, Pyth, RedStone), security tools, cross-chain bridges, dev frameworks, and more. Install via `npx cryptoskills install`. | [cryptoskills.dev](https://cryptoskills.dev/) |
 | **kukapay/crypto-skills** | Collection of specialized AI agent skills — EVM Swiss Knife, Market Sentiment, Meme Scout, Token Minter, Trading Strategist, Yield Opportunities. Install via `npx skills add kukapay/crypto-skills`. | [GitHub](https://github.com/kukapay/crypto-skills) |
 | **crypto-agent-skill** | Real-time crypto market data skill built with the agentskills.io open standard. | [GitHub](https://github.com/JStrait515/crypto-agent-skill) |
 
@@ -53,28 +49,6 @@ Everything you need to get started — foundational Ethereum and crypto knowledg
 | **Arbitrum dApp Skill** | Arbitrum | Claude Code skill for scaffolding complete Arbitrum dApps — Stylus Rust + Solidity contracts, React frontends, local devnode, deployment to Sepolia/One. | [GitHub](https://github.com/hummusonrails/arbitrum-dapp-skill) |
 | **Hyperlane MCP** | Hyperlane | Interoperability tooling for interchain AI agents. | [hyperlane.xyz](https://www.hyperlane.xyz/post/introducing-hyperlane-mcp-tooling-for-interchain-agents) |
 | **Brian API** | Natural Language → Web3 | Converts natural language to Web3 transactions. | [brian.so](https://www.brian.so/) |
-| **ENS Skill** | Ethereum Name Service | ENS name resolution, registration, and management. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Farcaster Skill** | Farcaster | Onchain social protocol — Neynar API, Frames v2, channels, casts. | [cryptoskills.dev](https://cryptoskills.dev/) |
-
-## DeFi Protocol Skills
-
-Production-ready skills for specific DeFi protocols — available via [CryptoSkills](https://cryptoskills.dev/) or standalone.
-
-| Name | Protocol | Description | Link |
-|------|----------|-------------|------|
-| **Aave V3 Skill** | Aave | Supply, borrow, repay, withdraw, flash loans, E-Mode, health factor monitoring. IPool interface in Solidity + viem-based TypeScript. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Compound V3 Skill** | Compound | Comet single-asset borrowing, governance, and COMP distribution. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Curve Finance Skill** | Curve | StableSwap AMM, crvUSD stablecoin, gauge voting. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Lido Skill** | Lido | Liquid staking — stETH/wstETH mechanics, staking, and wrapping. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **EigenLayer Skill** | EigenLayer | ETH restaking to secure AVSs (Actively Validated Services). | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Maker/Sky Skill** | MakerDAO / Sky | DAI minting via vaults, DSR, Liquidation 2.0. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Morpho Blue Skill** | Morpho | Permissionless lending markets with isolated risk. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Pendle Skill** | Pendle | Yield tokenization — PT/YT trading and strategies. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **GMX V2 Skill** | GMX | Perpetuals (50x leverage) and spot DEX on Arbitrum/Avalanche. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Vertex Skill** | Vertex | Cross-chain spot, perpetuals, and money markets. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Safe Skill** | Safe (Gnosis Safe) | Multisig SDK across 20+ chains — setup, signing, execution. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Polymarket Skill** | Polymarket | CLOB integration, HMAC signing, CTF operations for prediction markets. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Metengine Skill** | Metengine | Smart money analytics for Polymarket and Hyperliquid. | [cryptoskills.dev](https://cryptoskills.dev/) |
 
 ## Exchange & Trading Skills
 
@@ -84,35 +58,15 @@ Production-ready skills for specific DeFi protocols — available via [CryptoSki
 | **Bybit AI Skills** | Bybit | 253 API endpoints — market intelligence, spot trading, derivatives, earn products, account management. Works with ChatGPT, Claude, OpenClaw, Cursor. | [chainwire.org](https://chainwire.org/2026/03/13/bybit-launches-ai-skills-powering-ai-agents-for-crypto-trading-with-zero-setup-253-api-endpoints-and-growing/) |
 | **KuCoin Skills Hub** | KuCoin | Open skills marketplace for AI-driven crypto access — market data, analytics, trading signals. Expanding to wallet ops, staking, lending, and yield. | [kucoin.com](https://www.kucoin.com/announcement/en-kucoin-skills-hub-is-now-live-connecting-ai-agents-to-the-kucoin-exchange) |
 | **Bitget Wallet Skill** | Bitget | AI agent suite for onchain market data, trading infrastructure, and blockchain data via natural language. | [bitcoinethereumnews.com](https://bitcoinethereumnews.com/tech/bitget-wallet-expands-into-ai-agent-capabilities-with-skill-beta/) |
-| **Hyperliquid Skill** | Hyperliquid | Perpetual futures (50x leverage), WebSocket streaming, order management. | [cryptoskills.dev](https://cryptoskills.dev/) |
 
 ## Smart Contract Security
 
 | Name | Focus | Description | Link |
 |------|-------|-------------|------|
 | **ETHSKILLS Audit** | Solidity | 500+ item contract audit system with specialist agents. | [ethskills.com](https://ethskills.com/) |
-| **OpenZeppelin Skills** | Solidity, Cairo, Stylus | Security-critical patterns: ReentrancyGuard, Pausable, AccessControl, and more. | [openzeppelin.com](https://www.openzeppelin.com/news/introducing-openzeppelin-skills) |
 | **QuillShield** | Solidity | AI-powered vulnerability detection that learns from past exploits, reduces false positives. | [quillaudits.com](https://www.quillaudits.com/) |
-| **Slither** | Solidity | Python-based static analysis with 92+ vulnerability detectors. Trail of Bits. | [GitHub](https://github.com/crytic/slither) |
-| **Echidna** | Solidity | Property-based fuzzing for Ethereum smart contracts. Trail of Bits. | [GitHub](https://github.com/crytic/echidna) |
 | **EVM MCP Tools** | EVM | Blockchain analysis toolkit for Claude — audit smart contracts, analyze wallets, track profitability, fetch on-chain data via MCP. | [GitHub](https://github.com/0xGval/evm-mcp-tools) |
-| **Certora Skill** | Solidity | Formal verification with CVL (Certora Verification Language). | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Halmos Skill** | Solidity | Symbolic testing for Foundry-based smart contracts. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Mythril Skill** | Solidity | Symbolic execution engine for vulnerability detection in EVM bytecode. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Semgrep-Solidity Skill** | Solidity | Custom pattern matching rules for Solidity static analysis. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Solidity-Auditor Skill** | Solidity | Real-time code audit skill for live Solidity development. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Solidity-Security Skill** | Solidity | Security patterns and vulnerability prevention reference. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Vulnhunter Skill** | Solidity | Vulnerability variant analysis across smart contracts. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Code-Recon Skill** | Solidity | Architectural auditing methodology for code review. | [cryptoskills.dev](https://cryptoskills.dev/) |
 | **SecSkills Web3** | Web3 Security | Security-first Web3 development for Ethereum and EVM chains. | [LobeHub](https://lobehub.com/skills/trilwu-secskills-web3-blockchain) |
-
-## Oracles & Price Feeds
-
-| Name | Protocol | Description | Link |
-|------|----------|-------------|------|
-| **Chainlink Skill** | Chainlink | Price feeds, VRF v2.5, Automation (Keepers), and CCIP cross-chain messaging across Ethereum, Arbitrum, Base. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Pyth-EVM Skill** | Pyth (EVM) | Pull oracle for EVM chains with Hermes API. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **RedStone Skill** | RedStone | Modular oracle with pull/push delivery models. | [cryptoskills.dev](https://cryptoskills.dev/) |
 
 ## DeFi Data & Analytics
 
@@ -125,18 +79,20 @@ Production-ready skills for specific DeFi protocols — available via [CryptoSki
 | **DeFi Llama MCP** | DeFi analytics | API wrapper around the DeFi Llama ecosystem for TVL, yield, and protocol data. | [GitHub](https://github.com/demcp/defillama-mcp) |
 | **Hive Intelligence** | Multi-chain | MCP server connecting AI agents to 60+ blockchains with real-time crypto data. Works with Claude, ChatGPT, LangChain. | [hiveintelligence.xyz](https://hiveintelligence.xyz/) |
 | **Codex MCP** | Multi-chain | Enriched blockchain data from Codex. | [GitHub](https://github.com/Codex-Data/codex-mcp) |
-| **Tenderly Skill** | DevOps | Simulation, debugging, transaction tracing, and monitoring for EVM chains. | [cryptoskills.dev](https://cryptoskills.dev/) |
+| **Web3 Research MCP** | Crypto research | Deep research for crypto — local analysis and research automation. | [GitHub](https://github.com/aaronjmars/web3-research-mcp) |
 
 ## Agent Frameworks & Toolkits
 
 | Name | Description | Link |
 |------|-------------|------|
-| **Coinbase AgentKit** | Model-agnostic toolkit giving AI agents crypto wallets and on-chain interactions. Plug-and-play skills: authenticate, fund, send, trade, earn. | [GitHub](https://github.com/coinbase/agentkit) |
+| **Coinbase AgentKit** | Model-agnostic toolkit giving AI agents crypto wallets and on-chain interactions. Plug-and-play skills: authenticate, fund, send, trade, earn. TEE-isolated private keys on Base. | [GitHub](https://github.com/coinbase/agentkit) |
 | **GOAT (Great Onchain Agent Toolkit)** | Universal adapter between AI agents and any blockchain app. 200+ plugins across 30+ chains. Works with Langchain, Vercel AI SDK, ElizaOS, MCP. | [GitHub](https://github.com/goat-sdk/goat) |
 | **ElizaOS** | AI agent framework built for Web3 from day one. Production-proven blockchain integrations, originally launched as ai16z. | [GitHub](https://github.com/elizaOS/eliza) |
 | **OpenClaw** | Open-source local-first AI agent framework. 2M+ users, integrates with Claude, GPT, and Web3 skills for wallet management, token swaps, and stablecoin payments. | [openclaw.com](https://openclaw.com) |
-| **x402** | HTTP 402 payment protocol enabling machine-to-machine commerce and agent payments. | [cryptoskills.dev](https://cryptoskills.dev/) |
 | **eth-agent** | TypeScript library giving AI agents a simple, safe interface to send stablecoins (USDC/USDT/DAI) and ETH across chains. | [LobeHub](https://lobehub.com/skills/lambdaclass-eth-agent-eth-agent) |
+| **SpoonOS Web3 Skills** | 57 Python scripts across 19 skills for Web3 integrations (DeFi, NFT, DAO, Security). | [GitHub](https://github.com/XSpoonAi/spoon-awesome-skill) |
+| **Skill-to-MCP** | Convert AI Skills (Claude Skills format) to MCP server resources. | [GitHub](https://github.com/biocontext-ai/skill-to-mcp) |
+| **Lyra Tool Discovery** | AI-powered automation that discovers MCP servers for you. Point it at GitHub/npm, get ready-to-ship plugin configs. | [GitHub](https://github.com/nirholas/lyra-tool-discovery) |
 
 ## Chain-Specific MCP Servers
 
@@ -156,19 +112,7 @@ Production-ready skills for specific DeFi protocols — available via [CryptoSki
 | **Nodit MCP** | Multi-chain | Structured, context-ready blockchain data. | [GitHub](https://github.com/noditlabs/nodit-mcp-server) |
 | **Bankless Onchain MCP** | Multi-chain | Blockchain data interaction through the Bankless API. | [GitHub](https://github.com/Bankless/onchain-mcp) |
 | **Web3 Agent MCP** | Multi-chain | Ethereum, Polygon, Arbitrum, Optimism, Base, Avalanche — DeFi protocol interactions (Aave, Balancer, Convex, Curve, GMX, Morpho). | [LobeHub](https://lobehub.com/mcp/whatl3y-web3-agent) |
-
-## Ethereum L2 Skills
-
-| Name | Chain | Description | Link |
-|------|-------|-------------|------|
-| **Arbitrum Skill** | Arbitrum | Nitro L2, Orbit chains, cross-chain messaging. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Arbitrum Stylus Skill** | Arbitrum Stylus | Rust/C++ smart contracts compiled to WASM on Arbitrum. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Base Skill** | Base | Coinbase L2 on OP Stack with OnchainKit. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Optimism Skill** | Optimism | OP Stack, SuperchainERC20, Superchain interop. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Polygon Skill** | Polygon | PoS chain, zkEVM, AggLayer. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **StarkNet Skill** | StarkNet | Cairo smart contracts, native account abstraction. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Linea Skill** | Linea | Consensys zkEVM L2. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **MegaETH Skill** | MegaETH | Real-time Ethereum L2 with instant receipts. | [cryptoskills.dev](https://cryptoskills.dev/) |
+| **Foundry MCP Server** | Ethereum | Experimental MCP server for Foundry — built for Solidity devs. | [GitHub](https://github.com/PraneshASP/foundry-mcp-server) |
 
 ## Trading & DeFi MCP Servers
 
@@ -204,70 +148,37 @@ Production-ready skills for specific DeFi protocols — available via [CryptoSki
 | **Crypto Sentiment MCP** | Multiple | Cryptocurrency sentiment analysis. | [GitHub](https://github.com/kukapay/crypto-sentiment-mcp) |
 | **Gas Price MCP** | Blocknative | Real-time gas price predictions across chains. | [GitHub](https://github.com/kukapay/blocknative-mcp) |
 
-## Cross-Chain & Bridge Tools
+## Cross-Chain & Bridge MCP Servers
 
 | Name | Description | Link |
 |------|-------------|------|
 | **Wormhole MCP** | Automatic token transfers across multiple blockchains via Wormhole SDK. | [GitHub](https://github.com/collinsezedike/wormhole-mcp) |
-| **Wormhole Skill** | NTT framework, VAAs, cross-chain reads. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Hyperlane MCP** | Interoperability tooling for interchain AI agents. | [hyperlane.xyz](https://www.hyperlane.xyz/post/introducing-hyperlane-mcp-tooling-for-interchain-agents) |
-| **Hyperlane Skill** | Permissionless Mailbox messaging, Warp Routes. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **LayerZero V2 Skill** | V2 OApp framework, OFT tokens for omnichain messaging. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Axelar Skill** | GMP messaging, ITS multichain tokens. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **deBridge Skill** | Cross-chain bridges and message passing (EVM focus). | [cryptoskills.dev](https://cryptoskills.dev/) |
 | **Meson MCP** | Cross-chain transactions for asset transfers. | [GitHub](https://github.com/demcp/demcp-meson-mcp) |
-| **Bridge Rates MCP** | Real-time cross-chain bridge rate comparison. | [GitHub](https://github.com/kukapay/bridge-rates-mcp) |
 
 ## Wallet & Infrastructure
 
 | Name | Description | Link |
 |------|-------------|------|
 | **Trust Wallet Skills + MCP** | Claude Code skills marketplace + MCP server for Trust Wallet APIs, chains, and wallet functions. | [developer.trustwallet.com](https://developer.trustwallet.com/developer/claude-code-skills) |
-| **Coinbase AgentKit** | Agentic wallets on Base with TEE-isolated private keys. Model-agnostic (Claude, GPT, OpenClaw). | [GitHub](https://github.com/coinbase/agentkit) |
 | **Armor Crypto MCP** | Blockchain interaction, swaps, and strategic planning. | [GitHub](https://github.com/armorwallet/armor-crypto-mcp) |
 | **Thirdweb MCP** | Query real-time blockchain data on EVM chains, access ABIs and source code, execute transactions. | [blog.thirdweb.com](https://blog.thirdweb.com/changelog/thirdweb-mcp-server-v0-1-beta/) |
 | **Vincent Wallet** | Secure EVM wallet for agent transfers, swaps, and transactions. | [GitHub](https://github.com/HeyVincent-ai/agent-skills/tree/main/wallet) |
 | **Vincent Polymarket** | Polymarket prediction market trading for agents. | [GitHub](https://github.com/HeyVincent-ai/agent-skills/tree/main/polymarket) |
 | **AgentFund Skill** | Crowdfunding for AI agents on Base chain — milestone escrow. | [GitHub](https://github.com/RioBot-Grind/agentfund-skill) |
 | **CryptoWallet (OpenClaw)** | Multi-chain wallet management — 12 EVM networks. | [LobeHub](https://lobehub.com/skills/openclaw-skills-cryptowallet) |
-| **Privy Skill** | Embedded wallet with social/email/passkey auth for dApps. | [cryptoskills.dev](https://cryptoskills.dev/) |
 
 ## Standards & Identity
 
 | Name | Description | Link |
 |------|-------------|------|
-| **Account Abstraction Skill** | ERC-4337 v0.7, EIP-7702, EntryPoint lifecycle, bundlers, paymasters. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **EIP-Reference Skill** | ERC-20, ERC-721, ERC-1155, ERC-4626, EIP-712, EIP-4337, EIP-7702 reference. | [cryptoskills.dev](https://cryptoskills.dev/) |
 | **ERC-8004** | Onchain agent identity standard — deployed on 20+ chains. Co-led by Ethereum Foundation, MetaMask, and Google. | [ethereum.org](https://ethereum.org/ai-agents/) |
-| **Eth-Concepts Skill** | Core Ethereum — gas mechanics, transaction types, storage layout, ABI encoding, EVM execution. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Contract-Addresses Skill** | Verified contract addresses across EVM chains. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **EVM-NFTs Skill** | ERC-721/1155 patterns, Seaport marketplace integration. | [cryptoskills.dev](https://cryptoskills.dev/) |
 
 ## Frontend & Social
 
 | Name | Description | Link |
 |------|-------------|------|
-| **Wagmi Skill** | React hooks for Ethereum — useReadContract, useWriteContract, wallet connection. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Frontend-UX Skill** | dApp patterns — wallet connection flows, transaction UX, error handling. | [cryptoskills.dev](https://cryptoskills.dev/) |
 | **Ethereum-Wingman** | Ethereum development tutor for Scaffold-ETH 2 — fork-mode testing against live protocols. | [LobeHub](https://lobehub.com/skills/openclaw-skills-ethereum-wingman) |
 | **Web3 Community Skill** | Web3 community management and engagement patterns. | [LobeHub](https://lobehub.com/skills/omer-metin-skills-for-antigravity-web3-community) |
-
-## Dev Tools & Frameworks
-
-| Name | Description | Link |
-|------|-------------|------|
-| **Foundry MCP Server** | Experimental MCP server for Foundry — built for Solidity devs. | [GitHub](https://github.com/PraneshASP/foundry-mcp-server) |
-| **Foundry Skill** | Full Forge/Cast/Anvil/Chisel toolkit — build, test, deploy, and debug Solidity. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Hardhat Skill** | Solidity development framework with plugins, testing, and deployment. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Scaffold-ETH-2 Skill** | Full-stack dApp framework — Hardhat + Next.js + wagmi scaffolding. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Viem Skill** | TypeScript Ethereum interface — modern, type-safe alternative to ethers.js. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Ethers.js Skill** | v6 TypeScript library for Ethereum interactions. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **EVM Testing Skill** | Unit, fuzz, invariant, and fork testing patterns for smart contracts. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **Lyra Tool Discovery** | AI-powered automation that discovers MCP servers for you. Point it at GitHub/npm, get ready-to-ship plugin configs. | [GitHub](https://github.com/nirholas/lyra-tool-discovery) |
-| **Skill-to-MCP** | Convert AI Skills (Claude Skills format) to MCP server resources. | [GitHub](https://github.com/biocontext-ai/skill-to-mcp) |
-| **SpoonOS Web3 Skills** | 57 Python scripts across 19 skills for Web3 integrations (DeFi, NFT, DAO, Security). | [GitHub](https://github.com/XSpoonAi/spoon-awesome-skill) |
-| **Web3 Research MCP** | Deep research for crypto — local analysis and research automation. | [GitHub](https://github.com/aaronjmars/web3-research-mcp) |
-| **Crypto-Skill-Creator** | Framework and guide for contributing new CryptoSkills to the registry. | [cryptoskills.dev](https://cryptoskills.dev/) |
 | **Web3 Testing Skill** | Smart contract testing workflow with Hardhat + Foundry — unit, integration, fuzzing, gas profiling, fork testing. | [LobeHub](https://lobehub.com/skills/agent-skills-hub-agent-skills-hub-web3-testing) |
 
 ## Awesome Lists & Directories
