@@ -2,7 +2,7 @@
 
 > A curated list of AI skills, MCP servers, and plugins for Ethereum and Web3 development. These give AI agents (Claude, ChatGPT, Cursor, OpenClaw, etc.) the ability to interact with blockchains, write smart contracts, trade tokens, query on-chain data, and more.
 
-> [!CAUTION]
+> [!WARNING]
 > **None of the skills or MCP servers listed here have been audited.** This is a community-compiled directory of projects shared on social media, listed on skill hubs, and found across public repositories. We make no guarantees about their safety, integrity, or intentions. Exercise extreme caution with anything that touches wallets, private keys, seed phrases, or transaction signing — a malicious skill can compromise your agent and drain your funds. Always review the source code, verify the authors, and do your own research (DYOR) before installing or granting permissions to any skill or MCP server.
 
 ---
@@ -66,6 +66,7 @@
 | **QuillShield** | Solidity | AI-powered vulnerability detection that learns from past exploits, reduces false positives. | [quillaudits.com](https://www.quillaudits.com/) |
 | **EVM MCP Tools** | EVM | Blockchain analysis toolkit for Claude — audit smart contracts, analyze wallets, track profitability, fetch on-chain data via MCP. | [GitHub](https://github.com/0xGval/evm-mcp-tools) |
 | **SecSkills Web3** | Web3 Security | Security-first Web3 development for Ethereum and EVM chains. | [LobeHub](https://lobehub.com/skills/trilwu-secskills-web3-blockchain) |
+| **Web3 Testing Skill** | Smart contract testing workflow with Hardhat + Foundry — unit, integration, fuzzing, gas profiling, fork testing. | [LobeHub](https://lobehub.com/skills/agent-skills-hub-agent-skills-hub-web3-testing) |
 
 ## 📊 DeFi Data & Analytics
 
@@ -153,13 +154,12 @@
 | **AgentFund Skill** | Crowdfunding for AI agents on Base chain — milestone escrow. | [GitHub](https://github.com/RioBot-Grind/agentfund-skill) |
 | **CryptoWallet (OpenClaw)** | Multi-chain wallet management — 12 EVM networks. | [LobeHub](https://lobehub.com/skills/openclaw-skills-cryptowallet) |
 
-## 🖥️ Frontend & Social
+## 🖥️ Education
 
 | Name | Description | Link |
 |------|-------------|------|
 | **Ethereum-Wingman** | Ethereum development tutor for Scaffold-ETH 2 — fork-mode testing against live protocols. | [LobeHub](https://lobehub.com/skills/openclaw-skills-ethereum-wingman) |
-| **Web3 Community Skill** | Web3 community management and engagement patterns. | [LobeHub](https://lobehub.com/skills/omer-metin-skills-for-antigravity-web3-community) |
-| **Web3 Testing Skill** | Smart contract testing workflow with Hardhat + Foundry — unit, integration, fuzzing, gas profiling, fork testing. | [LobeHub](https://lobehub.com/skills/agent-skills-hub-agent-skills-hub-web3-testing) |
+
 
 ## 🗂️ Awesome Lists & Directories
 
