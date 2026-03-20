@@ -24,14 +24,12 @@ A curated list of AI skills, MCP servers, plugins, and agent toolkits for Ethere
 
 ## Knowledge & Skill Registries
 
+Everything you need to get started — foundational Ethereum and crypto knowledge packaged as AI skills.
+
 | Name | Description | Link |
 |------|-------------|------|
-| **ETHSKILLS** | Modular Ethereum knowledge for AI agents — covers gas, L2s, standards, security, DeFi composability, auditing, and more. No install required, works via URL fetch. | [ethskills.com](https://ethskills.com/) |
-| **CryptoSkills** | Open-source registry of 97+ production-ready AI agent skills across 14 categories and 15 blockchain networks. Installable via `npx cryptoskills install`. | [cryptoskills.dev](https://cryptoskills.dev/) |
-| **VoltAgent Awesome Agent Skills** | 500+ agent skills from official dev teams and community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and others. | [GitHub](https://github.com/VoltAgent/awesome-agent-skills) |
-| **Anthropic Skills** | Official public repository for Agent Skills from Anthropic. | [GitHub](https://github.com/anthropics/skills) |
-| **Microsoft Skills** | Skills, MCP servers, and custom agents for grounding coding agents (includes some Web3 skills). | [GitHub](https://github.com/microsoft/skills) |
-| **ClawHub Marketplace** | 13,700+ skills for OpenClaw agents, including 311+ in finance/investing and many Web3 skills. | [clawhub.com](https://clawhub.com) |
+| **ETHSKILLS** | Modular Ethereum knowledge for AI agents — gas, L2s, standards, security, DeFi, auditing, and more. No install required. | [ethskills.com](https://ethskills.com/) |
+| **CryptoSkills** | 97+ production-ready AI agent skills across 14 categories. Install via `npx cryptoskills install`. | [cryptoskills.dev](https://cryptoskills.dev/) |
 
 ## Protocol-Specific Skills & Plugins
 
