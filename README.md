@@ -1,32 +1,35 @@
-# Awesome Ethereum & Web3 AI Skills
+# ⟠ Awesome Ethereum & Web3 AI Skills
 
-A curated list of AI skills, MCP servers, plugins, and agent toolkits for Ethereum and Web3 development. These tools give AI agents (Claude, ChatGPT, Cursor, OpenClaw, etc.) the ability to interact with blockchains, write smart contracts, trade tokens, query on-chain data, and more.
+> A curated list of AI skills, MCP servers, and plugins for Ethereum and Web3 development. These give AI agents (Claude, ChatGPT, Cursor, OpenClaw, etc.) the ability to interact with blockchains, write smart contracts, trade tokens, query on-chain data, and more.
 
----
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-## Contents
-
-- [Knowledge & Skill Registries](#knowledge--skill-registries)
-- [Protocol-Specific Skills & Plugins](#protocol-specific-skills--plugins)
-- [Exchange & Trading Skills](#exchange--trading-skills)
-- [Smart Contract Security](#smart-contract-security)
-- [DeFi Data & Analytics](#defi-data--analytics)
-- [Agent Frameworks & Toolkits](#agent-frameworks--toolkits)
-- [Chain-Specific MCP Servers](#chain-specific-mcp-servers)
-- [Trading & DeFi MCP Servers](#trading--defi-mcp-servers)
-- [Market Data MCP Servers](#market-data-mcp-servers)
-- [Cross-Chain & Bridge MCP Servers](#cross-chain--bridge-mcp-servers)
-- [Wallet & Infrastructure](#wallet--infrastructure)
-- [Standards & Identity](#standards--identity)
-- [Frontend & Social](#frontend--social)
-- [Awesome Lists & Directories](#awesome-lists--directories)
-- [Discovery Resources](#discovery-resources)
+> [!CAUTION]
+> **None of the skills or MCP servers listed here have been audited.** This is a community-compiled directory of projects shared on social media, listed on skill hubs, and found across public repositories. We make no guarantees about their safety, integrity, or intentions. Exercise extreme caution with anything that touches wallets, private keys, seed phrases, or transaction signing — a malicious skill can compromise your agent and drain your funds. Always review the source code, verify the authors, and do your own research (DYOR) before installing or granting permissions to any skill or MCP server.
 
 ---
 
-## Knowledge & Skill Registries
+## 📑 Contents
 
-Everything you need to get started — foundational Ethereum and crypto knowledge packaged as AI skills.
+- [📚 Knowledge & Skill Registries](#-knowledge--skill-registries)
+- [🔌 Protocol-Specific Skills & Plugins](#-protocol-specific-skills--plugins)
+- [📈 Exchange & Trading Skills](#-exchange--trading-skills)
+- [🛡️ Smart Contract Security](#️-smart-contract-security)
+- [📊 DeFi Data & Analytics](#-defi-data--analytics)
+- [⛓️ Chain-Specific MCP Servers](#️-chain-specific-mcp-servers)
+- [💱 Trading & DeFi MCP Servers](#-trading--defi-mcp-servers)
+- [📉 Market Data MCP Servers](#-market-data-mcp-servers)
+- [🌉 Cross-Chain & Bridge MCP Servers](#-cross-chain--bridge-mcp-servers)
+- [👛 Wallet & Infrastructure](#-wallet--infrastructure)
+- [🖥️ Frontend & Social](#️-frontend--social)
+- [🗂️ Awesome Lists & Directories](#️-awesome-lists--directories)
+- [🔍 Discovery Resources](#-discovery-resources)
+
+---
+
+## 📚 Knowledge & Skill Registries
+
+> Foundational Ethereum and crypto knowledge packaged as AI skills.
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -35,7 +38,7 @@ Everything you need to get started — foundational Ethereum and crypto knowledg
 | **kukapay/crypto-skills** | Collection of specialized AI agent skills — EVM Swiss Knife, Market Sentiment, Meme Scout, Token Minter, Trading Strategist, Yield Opportunities. Install via `npx skills add kukapay/crypto-skills`. | [GitHub](https://github.com/kukapay/crypto-skills) |
 | **crypto-agent-skill** | Real-time crypto market data skill built with the agentskills.io open standard. | [GitHub](https://github.com/JStrait515/crypto-agent-skill) |
 
-## Protocol-Specific Skills & Plugins
+## 🔌 Protocol-Specific Skills & Plugins
 
 | Name | Protocol/Focus | Description | Link |
 |------|---------------|-------------|------|
@@ -50,16 +53,14 @@ Everything you need to get started — foundational Ethereum and crypto knowledg
 | **Hyperlane MCP** | Hyperlane | Interoperability tooling for interchain AI agents. | [hyperlane.xyz](https://www.hyperlane.xyz/post/introducing-hyperlane-mcp-tooling-for-interchain-agents) |
 | **Brian API** | Natural Language → Web3 | Converts natural language to Web3 transactions. | [brian.so](https://www.brian.so/) |
 
-## Exchange & Trading Skills
+## 📈 Exchange & Trading Skills
 
 | Name | Platform | Description | Link |
 |------|----------|-------------|------|
 | **Binance AI Agent Skills** | Binance | 11 modular skills for spot trading, derivatives, margin, market intelligence, token auditing, asset management, and Binance Alpha data. | [binance.com](https://www.binance.com/en/support/announcement/detail/bafb9dda6cbb47d5882a4090c31d4c64) |
-| **Bybit AI Skills** | Bybit | 253 API endpoints — market intelligence, spot trading, derivatives, earn products, account management. Works with ChatGPT, Claude, OpenClaw, Cursor. | [chainwire.org](https://chainwire.org/2026/03/13/bybit-launches-ai-skills-powering-ai-agents-for-crypto-trading-with-zero-setup-253-api-endpoints-and-growing/) |
-| **KuCoin Skills Hub** | KuCoin | Open skills marketplace for AI-driven crypto access — market data, analytics, trading signals. Expanding to wallet ops, staking, lending, and yield. | [kucoin.com](https://www.kucoin.com/announcement/en-kucoin-skills-hub-is-now-live-connecting-ai-agents-to-the-kucoin-exchange) |
-| **Bitget Wallet Skill** | Bitget | AI agent suite for onchain market data, trading infrastructure, and blockchain data via natural language. | [bitcoinethereumnews.com](https://bitcoinethereumnews.com/tech/bitget-wallet-expands-into-ai-agent-capabilities-with-skill-beta/) |
+| **Bybit AI Skills** | Bybit | 253 API endpoints — market intelligence, spot trading, derivatives, earn products, account management. Works with ChatGPT, Claude, OpenClaw, Cursor. | [GitHub](https://github.com/bybit-exchange/skills) |
 
-## Smart Contract Security
+## 🛡️ Smart Contract Security
 
 | Name | Focus | Description | Link |
 |------|-------|-------------|------|
@@ -68,7 +69,7 @@ Everything you need to get started — foundational Ethereum and crypto knowledg
 | **EVM MCP Tools** | EVM | Blockchain analysis toolkit for Claude — audit smart contracts, analyze wallets, track profitability, fetch on-chain data via MCP. | [GitHub](https://github.com/0xGval/evm-mcp-tools) |
 | **SecSkills Web3** | Web3 Security | Security-first Web3 development for Ethereum and EVM chains. | [LobeHub](https://lobehub.com/skills/trilwu-secskills-web3-blockchain) |
 
-## DeFi Data & Analytics
+## 📊 DeFi Data & Analytics
 
 | Name | Focus | Description | Link |
 |------|-------|-------------|------|
@@ -81,20 +82,7 @@ Everything you need to get started — foundational Ethereum and crypto knowledg
 | **Codex MCP** | Multi-chain | Enriched blockchain data from Codex. | [GitHub](https://github.com/Codex-Data/codex-mcp) |
 | **Web3 Research MCP** | Crypto research | Deep research for crypto — local analysis and research automation. | [GitHub](https://github.com/aaronjmars/web3-research-mcp) |
 
-## Agent Frameworks & Toolkits
-
-| Name | Description | Link |
-|------|-------------|------|
-| **Coinbase AgentKit** | Model-agnostic toolkit giving AI agents crypto wallets and on-chain interactions. Plug-and-play skills: authenticate, fund, send, trade, earn. TEE-isolated private keys on Base. | [GitHub](https://github.com/coinbase/agentkit) |
-| **GOAT (Great Onchain Agent Toolkit)** | Universal adapter between AI agents and any blockchain app. 200+ plugins across 30+ chains. Works with Langchain, Vercel AI SDK, ElizaOS, MCP. | [GitHub](https://github.com/goat-sdk/goat) |
-| **ElizaOS** | AI agent framework built for Web3 from day one. Production-proven blockchain integrations, originally launched as ai16z. | [GitHub](https://github.com/elizaOS/eliza) |
-| **OpenClaw** | Open-source local-first AI agent framework. 2M+ users, integrates with Claude, GPT, and Web3 skills for wallet management, token swaps, and stablecoin payments. | [openclaw.com](https://openclaw.com) |
-| **eth-agent** | TypeScript library giving AI agents a simple, safe interface to send stablecoins (USDC/USDT/DAI) and ETH across chains. | [LobeHub](https://lobehub.com/skills/lambdaclass-eth-agent-eth-agent) |
-| **SpoonOS Web3 Skills** | 57 Python scripts across 19 skills for Web3 integrations (DeFi, NFT, DAO, Security). | [GitHub](https://github.com/XSpoonAi/spoon-awesome-skill) |
-| **Skill-to-MCP** | Convert AI Skills (Claude Skills format) to MCP server resources. | [GitHub](https://github.com/biocontext-ai/skill-to-mcp) |
-| **Lyra Tool Discovery** | AI-powered automation that discovers MCP servers for you. Point it at GitHub/npm, get ready-to-ship plugin configs. | [GitHub](https://github.com/nirholas/lyra-tool-discovery) |
-
-## Chain-Specific MCP Servers
+## ⛓️ Chain-Specific MCP Servers
 
 | Name | Chain | Description | Link |
 |------|-------|-------------|------|
@@ -114,7 +102,7 @@ Everything you need to get started — foundational Ethereum and crypto knowledg
 | **Web3 Agent MCP** | Multi-chain | Ethereum, Polygon, Arbitrum, Optimism, Base, Avalanche — DeFi protocol interactions (Aave, Balancer, Convex, Curve, GMX, Morpho). | [LobeHub](https://lobehub.com/mcp/whatl3y-web3-agent) |
 | **Foundry MCP Server** | Ethereum | Experimental MCP server for Foundry — built for Solidity devs. | [GitHub](https://github.com/PraneshASP/foundry-mcp-server) |
 
-## Trading & DeFi MCP Servers
+## 💱 Trading & DeFi MCP Servers
 
 | Name | Focus | Description | Link |
 |------|-------|-------------|------|
@@ -131,7 +119,7 @@ Everything you need to get started — foundational Ethereum and crypto knowledg
 | **Bybit MCP** | Bybit | Read-only access to Bybit exchange API. | [GitHub](https://github.com/sammcj/bybit-mcp) |
 | **Freqtrade MCP** | Freqtrade | Integration with Freqtrade crypto trading bot. | [GitHub](https://github.com/kukapay/freqtrade-mcp) |
 
-## Market Data MCP Servers
+## 📉 Market Data MCP Servers
 
 | Name | Source | Description | Link |
 |------|--------|-------------|------|
@@ -148,14 +136,14 @@ Everything you need to get started — foundational Ethereum and crypto knowledg
 | **Crypto Sentiment MCP** | Multiple | Cryptocurrency sentiment analysis. | [GitHub](https://github.com/kukapay/crypto-sentiment-mcp) |
 | **Gas Price MCP** | Blocknative | Real-time gas price predictions across chains. | [GitHub](https://github.com/kukapay/blocknative-mcp) |
 
-## Cross-Chain & Bridge MCP Servers
+## 🌉 Cross-Chain & Bridge MCP Servers
 
 | Name | Description | Link |
 |------|-------------|------|
 | **Wormhole MCP** | Automatic token transfers across multiple blockchains via Wormhole SDK. | [GitHub](https://github.com/collinsezedike/wormhole-mcp) |
 | **Meson MCP** | Cross-chain transactions for asset transfers. | [GitHub](https://github.com/demcp/demcp-meson-mcp) |
 
-## Wallet & Infrastructure
+## 👛 Wallet & Infrastructure
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -167,13 +155,7 @@ Everything you need to get started — foundational Ethereum and crypto knowledg
 | **AgentFund Skill** | Crowdfunding for AI agents on Base chain — milestone escrow. | [GitHub](https://github.com/RioBot-Grind/agentfund-skill) |
 | **CryptoWallet (OpenClaw)** | Multi-chain wallet management — 12 EVM networks. | [LobeHub](https://lobehub.com/skills/openclaw-skills-cryptowallet) |
 
-## Standards & Identity
-
-| Name | Description | Link |
-|------|-------------|------|
-| **ERC-8004** | Onchain agent identity standard — deployed on 20+ chains. Co-led by Ethereum Foundation, MetaMask, and Google. | [ethereum.org](https://ethereum.org/ai-agents/) |
-
-## Frontend & Social
+## 🖥️ Frontend & Social
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -181,7 +163,7 @@ Everything you need to get started — foundational Ethereum and crypto knowledg
 | **Web3 Community Skill** | Web3 community management and engagement patterns. | [LobeHub](https://lobehub.com/skills/omer-metin-skills-for-antigravity-web3-community) |
 | **Web3 Testing Skill** | Smart contract testing workflow with Hardhat + Foundry — unit, integration, fuzzing, gas profiling, fork testing. | [LobeHub](https://lobehub.com/skills/agent-skills-hub-agent-skills-hub-web3-testing) |
 
-## Awesome Lists & Directories
+## 🗂️ Awesome Lists & Directories
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -190,15 +172,10 @@ Everything you need to get started — foundational Ethereum and crypto knowledg
 | **awesome-web3-mcp-servers (DeMCP)** | Decentralized MCP network directory. | [GitHub](https://github.com/demcp/awesome-web3-mcp-servers) |
 | **awesome-blockchain-ai** | Curated list of blockchain projects for AI/ML. | [GitHub](https://github.com/steven2358/awesome-blockchain-ai) |
 | **awesome-x402** | Resources for x402 HTTP 402 Payment Required protocol — blockchain payments, AI agents, API monetization. | [GitHub](https://github.com/xpaysh/awesome-x402) |
-| **awesome-agent-skills (heilcheng)** | 500+ curated AI agent skills across all domains including Web3. | [GitHub](https://github.com/heilcheng/awesome-agent-skills) |
-| **awesome-agent-skills (VoltAgent)** | 549+ skills from official dev teams (includes Binance Web3 skills). | [GitHub](https://github.com/VoltAgent/awesome-agent-skills) |
-| **awesome-openclaw-skills (VoltAgent)** | 5,400+ OpenClaw skills filtered and categorized. | [GitHub](https://github.com/VoltAgent/awesome-openclaw-skills) |
-| **awesome-agent-skills (skillmatic)** | The definitive resource for Agent Skills — modular capabilities for AI agents. | [GitHub](https://github.com/skillmatic-ai/awesome-agent-skills) |
-| **awesome-layerzero** | Everything about LayerZero in one resource. | [GitHub](https://github.com/LayerZero-Labs/awesome-layerzero) |
 
-## Discovery Resources
+## 🔍 Discovery Resources
 
-Where to find even more skills as the ecosystem grows.
+> Where to find even more skills as the ecosystem grows.
 
 | Resource | Description | Link |
 |----------|-------------|------|
@@ -207,15 +184,13 @@ Where to find even more skills as the ecosystem grows.
 | **ClawHub** | OpenClaw's marketplace with 27k+ skills. Search "web3" or "defi". **Warning:** 12% of skill packs found to contain malicious code — verify before installing. | [clawhub.com](https://clawhub.com/) |
 | **LobeHub Skills Marketplace** | Skills marketplace with crypto/Web3 category. | [lobehub.com/skills](https://lobehub.com/skills) |
 | **Termo.ai** | Skill browser — search "ethereum", "crypto", "defi". | [termo.ai](https://termo.ai/) |
-| **roadmap.sh/blockchain** | Structured learning roadmap for blockchain — Solidity/Rust, frameworks, L2s, security, oracles, cross-chain. | [roadmap.sh](https://roadmap.sh/blockchain) |
-| **GitHub Search** | Search `"agent-skills" + protocol_name` or `"mcp-server" + protocol_name` for protocol-specific tools. | [github.com](https://github.com/search) |
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
-PRs welcome! If you know of an Ethereum/Web3 AI skill, MCP server, or agent toolkit not listed here, please open a pull request.
+PRs welcome! If you know of an Ethereum/Web3 AI skill or MCP server not listed here, please open a pull request.
 
-## License
+## 📄 License
 
 CC0 1.0 Universal
