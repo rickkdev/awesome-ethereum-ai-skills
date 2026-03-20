@@ -25,7 +25,7 @@
 
 ---
 
-## 🎓 Knowledge & Skill Registries
+## 🎓 General Knowledge
 
 > Foundational Ethereum and crypto knowledge packaged as AI skills.
 
