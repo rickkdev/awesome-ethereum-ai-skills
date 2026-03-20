@@ -19,7 +19,7 @@
 - [📉 Market Data MCP Servers](#-market-data-mcp-servers)
 - [🌉 Cross-Chain & Bridge MCP Servers](#-cross-chain--bridge-mcp-servers)
 - [👛 Wallet & Infrastructure](#-wallet--infrastructure)
-- [🖥️ Frontend & Social](#️-frontend--social)
+- [🖥️ Education](#️-education)
 - [🗂️ Awesome Lists & Directories](#️-awesome-lists--directories)
 - [🔍 Discovery Resources](#-discovery-resources)
 
@@ -154,7 +154,7 @@
 | **AgentFund Skill** | Crowdfunding for AI agents on Base chain — milestone escrow. | [GitHub](https://github.com/RioBot-Grind/agentfund-skill) |
 | **CryptoWallet (OpenClaw)** | Multi-chain wallet management — 12 EVM networks. | [LobeHub](https://lobehub.com/skills/openclaw-skills-cryptowallet) |
 
-## 🖥️ Education
+## 📚 Education
 
 | Name | Description | Link |
 |------|-------------|------|
