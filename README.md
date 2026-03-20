@@ -63,7 +63,22 @@
 | Name | Focus | Description | Link |
 |------|-------|-------------|------|
 | **ETHSKILLS Audit** | Solidity | 500+ item contract audit system with specialist agents. | [ethskills.com](https://ethskills.com/) |
+| **pashov/skills** ⭐ | Solidity | Solidity audit skill from Pashov Audit Group — `solidity-auditor` folder delivers sub-5-minute security feedback on Solidity code changes. Install with `Install skill https://github.com/pashov/skills/`, then run `run solidity auditor on the codebase`. Ideal for real-time auditing while coding. | [GitHub](https://github.com/pashov/skills) |
+| **Cyfrin/solskill** | Solidity | Solidity security development skill from the Cyfrin audit team. | [GitHub](https://github.com/Cyfrin/solskill) |
 | **QuillShield** | Solidity | AI-powered vulnerability detection that learns from past exploits, reduces false positives. | [Github](https://github.com/quillai-network/quillshield_skills) |
+| **quillai-network/qs_skills** | Solidity | Security audit skills from QuillAI. | [GitHub](https://github.com/quillai-network/qs_skills) |
+| **kadenzipfel/scv-scan** | Solidity | SCV Scan — Solidity vulnerability scanning skill. | [GitHub](https://github.com/kadenzipfel/scv-scan) |
+| **Archethect/sc-auditor** | Solidity | Smart contract security auditor skill. | [GitHub](https://github.com/Archethect/sc-auditor) |
+| **auditmos/skills** | Solidity | Security audit skills from the Auditmos team. | [GitHub](https://github.com/auditmos/skills) |
+| **zerocoolailabs/ZeroSkills** | Solidity | Vulnerability detector skill for Solidity contracts. | [GitHub](https://github.com/zerocoolailabs/ZeroSkills) |
+| **marchev/claudit** | Solidity | Security findings skill for smart contract auditing. | [GitHub](https://github.com/marchev/claudit) |
+| **ZealynxSecurity/krait** | Solidity | AI-first smart contract security auditor from ZealynxSecurity. | [GitHub](https://github.com/ZealynxSecurity/krait) |
+| **trailofbits/skills** | Multi-Lang | Security dev testing skills from Trail of Bits — creators of Slither, Echidna, and Manticore. | [GitHub](https://github.com/trailofbits/skills) |
+| **JoranHonig/grimoire** | Multi-Lang | Co-auditor skill from Ethereum security researcher Joran Honig. | [GitHub](https://github.com/JoranHonig/grimoire) |
+| **forefy/.context** | Multi-Lang | Security audit skills from Forefy. | [GitHub](https://github.com/forefy/.context) |
+| **0xiehnnkta/nemesis-auditor** | Multi-Lang | Nemesis security audit agent skill. | [GitHub](https://github.com/0xiehnnkta/nemesis-auditor) |
+| **Monethic/monethic-maia** | Multi-Lang | AI auditor skill from Monethic. | [GitHub](https://github.com/Monethic/monethic-maia) |
+| **hackenproof-public/skills** | Web3 Security | Bug triage skills from HackenProof's Web3 security platform. | [GitHub](https://github.com/hackenproof-public/skills) |
 | **EVM MCP Tools** | EVM | Blockchain analysis toolkit for Claude — audit smart contracts, analyze wallets, track profitability, fetch on-chain data via MCP. | [GitHub](https://github.com/0xGval/evm-mcp-tools) |
 | **SecSkills Web3** | Web3 Security | Security-first Web3 development for Ethereum and EVM chains. | [LobeHub](https://lobehub.com/skills/trilwu-secskills-web3-blockchain) |
 | **Web3 Testing Skill** | Smart contract testing workflow with Hardhat + Foundry — unit, integration, fuzzing, gas profiling, fork testing. | [LobeHub](https://lobehub.com/skills/agent-skills-hub-agent-skills-hub-web3-testing) |
@@ -153,6 +168,7 @@
 | **Vincent Polymarket** | Polymarket prediction market trading for agents. | [GitHub](https://github.com/HeyVincent-ai/agent-skills/tree/main/polymarket) |
 | **AgentFund Skill** | Crowdfunding for AI agents on Base chain — milestone escrow. | [GitHub](https://github.com/RioBot-Grind/agentfund-skill) |
 | **CryptoWallet (OpenClaw)** | Multi-chain wallet management — 12 EVM networks. | [LobeHub](https://lobehub.com/skills/openclaw-skills-cryptowallet) |
+| **Coinbase Agentic Wallet Skills** | Wallet skills for AI agents from Coinbase — install via `npx skills add coinbase/agentic-wallet-skills`. | [GitHub](https://github.com/coinbase/agentic-wallet-skills) |
 
 ## 📚 Education
 
