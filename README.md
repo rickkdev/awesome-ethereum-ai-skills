@@ -2,8 +2,6 @@
 
 > A curated list of AI skills, MCP servers, and plugins for Ethereum and Web3 development. These give AI agents (Claude, ChatGPT, Cursor, OpenClaw, etc.) the ability to interact with blockchains, write smart contracts, trade tokens, query on-chain data, and more.
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
 > [!CAUTION]
 > **None of the skills or MCP servers listed here have been audited.** This is a community-compiled directory of projects shared on social media, listed on skill hubs, and found across public repositories. We make no guarantees about their safety, integrity, or intentions. Exercise extreme caution with anything that touches wallets, private keys, seed phrases, or transaction signing — a malicious skill can compromise your agent and drain your funds. Always review the source code, verify the authors, and do your own research (DYOR) before installing or granting permissions to any skill or MCP server.
 
