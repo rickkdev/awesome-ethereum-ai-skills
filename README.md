@@ -19,7 +19,7 @@
 - [📉 Market Data MCP Servers](#-market-data-mcp-servers)
 - [🌉 Cross-Chain & Bridge MCP Servers](#-cross-chain--bridge-mcp-servers)
 - [👛 Wallet & Infrastructure](#-wallet--infrastructure)
-- [📚 Education](#️-education)
+- [📚 Education](#-education)
 - [🗂️ Awesome Lists & Directories](#️-awesome-lists--directories)
 - [🔍 Discovery Resources](#-discovery-resources)
 
