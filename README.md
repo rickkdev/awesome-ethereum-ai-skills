@@ -81,7 +81,7 @@
 | **hackenproof-public/skills** | Web3 Security | Bug triage skills from HackenProof's Web3 security platform. | [GitHub](https://github.com/hackenproof-public/skills) |
 | **EVM MCP Tools** | EVM | Blockchain analysis toolkit for Claude — audit smart contracts, analyze wallets, track profitability, fetch on-chain data via MCP. | [GitHub](https://github.com/0xGval/evm-mcp-tools) |
 | **SecSkills Web3** | Web3 Security | Security-first Web3 development for Ethereum and EVM chains. | [LobeHub](https://lobehub.com/skills/trilwu-secskills-web3-blockchain) |
-| **Web3 Testing Skill** | Smart contract testing workflow with Hardhat + Foundry — unit, integration, fuzzing, gas profiling, fork testing. Specially built for OpenClaw setups. | [LobeHub](https://lobehub.com/skills/agent-skills-hub-agent-skills-hub-web3-testing) |
+| **Web3 Testing Skill** | Web3 Security | Smart contract testing workflow with Hardhat + Foundry — unit, integration, fuzzing, gas profiling, fork testing. Specially built for OpenClaw setups. | [LobeHub](https://lobehub.com/skills/agent-skills-hub-agent-skills-hub-web3-testing) |
 
 ## 📊 DeFi Data & Analytics
 
