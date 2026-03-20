@@ -9,7 +9,7 @@
 
 ## 📑 Contents
 
-- [📚 Knowledge & Skill Registries](#-knowledge--skill-registries)
+- [🎓 Knowledge & Skill Registries](#-knowledge--skill-registries)
 - [🔌 Protocol-Specific Skills & Plugins](#-protocol-specific-skills--plugins)
 - [📈 Exchange & Trading Skills](#-exchange--trading-skills)
 - [🛡️ Smart Contract Security](#️-smart-contract-security)
@@ -19,13 +19,13 @@
 - [📉 Market Data MCP Servers](#-market-data-mcp-servers)
 - [🌉 Cross-Chain & Bridge MCP Servers](#-cross-chain--bridge-mcp-servers)
 - [👛 Wallet & Infrastructure](#-wallet--infrastructure)
-- [🖥️ Education](#️-education)
+- [📚 Education](#️-education)
 - [🗂️ Awesome Lists & Directories](#️-awesome-lists--directories)
 - [🔍 Discovery Resources](#-discovery-resources)
 
 ---
 
-## 📚 Knowledge & Skill Registries
+## 🎓 Knowledge & Skill Registries
 
 > Foundational Ethereum and crypto knowledge packaged as AI skills.
 
