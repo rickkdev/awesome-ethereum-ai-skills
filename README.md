@@ -63,7 +63,7 @@
 | Name | Focus | Description | Link |
 |------|-------|-------------|------|
 | **ETHSKILLS Audit** | Solidity | 500+ item contract audit system with specialist agents. | [ethskills.com](https://ethskills.com/) |
-| **QuillShield** | Solidity | AI-powered vulnerability detection that learns from past exploits, reduces false positives. | [quillaudits.com](https://www.quillaudits.com/) |
+| **QuillShield** | Solidity | AI-powered vulnerability detection that learns from past exploits, reduces false positives. | [Github](https://github.com/quillai-network/quillshield_skills) |
 | **EVM MCP Tools** | EVM | Blockchain analysis toolkit for Claude — audit smart contracts, analyze wallets, track profitability, fetch on-chain data via MCP. | [GitHub](https://github.com/0xGval/evm-mcp-tools) |
 | **SecSkills Web3** | Web3 Security | Security-first Web3 development for Ethereum and EVM chains. | [LobeHub](https://lobehub.com/skills/trilwu-secskills-web3-blockchain) |
 | **Web3 Testing Skill** | Smart contract testing workflow with Hardhat + Foundry — unit, integration, fuzzing, gas profiling, fork testing. | [LobeHub](https://lobehub.com/skills/agent-skills-hub-agent-skills-hub-web3-testing) |
