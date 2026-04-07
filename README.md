@@ -169,6 +169,7 @@
 | **AgentFund Skill** | Crowdfunding for AI agents on Base chain — milestone escrow. | [GitHub](https://github.com/RioBot-Grind/agentfund-skill) |
 | **CryptoWallet (OpenClaw)** | Multi-chain wallet management — 12 EVM networks. | [LobeHub](https://lobehub.com/skills/openclaw-skills-cryptowallet) |
 | **Coinbase Agentic Wallet Skills** | Wallet skills for AI agents from Coinbase — install via `npx skills add coinbase/agentic-wallet-skills`. | [GitHub](https://github.com/coinbase/agentic-wallet-skills) |
+| **ZKProofport MCP** | Zero-knowledge identity proofs for AI agents — prove Coinbase KYC, Country, Google OIDC, Workspace, MS 365 affiliation without revealing personal data. AWS Nitro Enclave TEE proving, x402 USDC on Base, ERC-8004 registered (token #25331). | [GitHub](https://github.com/zkproofport/proofport-ai) |
 
 ## 📚 Education
 
