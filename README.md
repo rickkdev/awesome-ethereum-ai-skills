@@ -172,6 +172,7 @@
 
 ## 📚 Education
 
+- [LearnAI — GMX Interactive Course](https://www.uselearnai.com/chat?topic=GMX+Perps) — AI-powered personal tutor for learning GMX from scratch through conversation
 | Name | Description | Link |
 |------|-------------|------|
 | **Ethereum-Wingman** | Ethereum development tutor for Scaffold-ETH 2 — fork-mode testing against live protocols. | [LobeHub](https://lobehub.com/skills/openclaw-skills-ethereum-wingman) |
