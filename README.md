@@ -92,7 +92,7 @@
 | **Zerion MCP + Skills** | Portfolio & on-chain data | Connects Claude to on-chain data for portfolio analysis, wallet tracking, and DeFi research. | [zerion.io](https://zerion.io/blog/zerion-for-api-ai-agents-mcp-skills/) |
 | **The Graph MCP** | Indexed blockchain data | Query indexed blockchain data from The Graph's subgraphs. | [GitHub](https://github.com/kukapay/thegraph-mcp) |
 | **DeFi Llama MCP** | DeFi analytics | API wrapper around the DeFi Llama ecosystem for TVL, yield, and protocol data. | [GitHub](https://github.com/demcp/defillama-mcp) |
-| **Hive Intelligence** | Multi-chain | MCP server connecting AI agents to 60+ blockchains with real-time crypto data. Works with Claude, ChatGPT, LangChain. | [hiveintelligence.xyz](https://hiveintelligence.xyz/) |
+| **Hive Intelligence** | Multi-chain | Institutional-grade crypto market infrastructure for AI — live prices, DeFi, wallets, and token risk through a managed MCP, REST API, or CLI. Works with Claude, Cursor, ChatGPT, Gemini, Windsurf. | [hiveintelligence.xyz](https://hiveintelligence.xyz/) |
 | **Codex MCP** | Multi-chain | Enriched blockchain data from Codex. | [GitHub](https://github.com/Codex-Data/codex-mcp) |
 | **Web3 Research MCP** | Crypto research | Deep research for crypto — local analysis and research automation. | [GitHub](https://github.com/aaronjmars/web3-research-mcp) |
 
